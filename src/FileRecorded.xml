@@ -1,0 +1,33 @@
+<City_catalog>
+    <city area="850">Kyiv</city>
+        <street>Peremogy</street>
+            <building>1</building>
+            <building>2</building>
+            <building>3</building>
+            <building>4</building>
+            <building>5</building>
+        <street>General Zaluzhny</street>
+            <building>1</building>
+            <building>2</building>
+            <building>3</building>
+        <street>Antonovich</street>
+            <building>1</building>
+    <city area="405">Dnipro</city>
+        <street>Poly</street>
+            <building>1</building>
+        <street>Kozakiv</street>
+            <building>1</building>
+            <building>2</building>
+            <building>3</building>
+            <building>4</building>
+            <building>5</building>
+            <building>6</building>
+    <city area="350">Kharkiv</city>
+        <street>Geroiv Kharkiva</street>
+            <building>10</building>
+            <building>5</building>
+            <building>157</building>
+            <building>89</building>
+        <street>Sportivna</street>
+            <building>100</building>
+</City_catalog>

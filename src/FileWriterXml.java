@@ -1,15 +1,16 @@
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 
-public class FileWriter {
+public class FileWriterXml {
     private final String HEADER = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
-    private final String START_TEG_ROOT_ELEMENT = "<City catalog>\n";
-    private final String END_TEG_ROOT_ELEMENT = "</City catalog>";
+    private final String START_TEG_ROOT_ELEMENT = "<City_catalog>\n";
+    private final String END_TEG_ROOT_ELEMENT = "</City_catalog>";
 
-    private FileWriter fileWriter;
+    private FileWriterXml fileWriter;
 
-    public FileWriter createFileWriterXml(File NameFileToBeRecorded){
-        FileWriter fileWriter  = new FileWriter(new File(NameFileToBeRecorded));
-        return fileWriter;
+    public FileWriter createFileWriterXml(String pathName) throws IOException {
+        return new FileWriter(new File(pathName));
     }
 
     public String createHeader() {
